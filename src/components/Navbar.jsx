@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import nav_icon from "../IMG/navigation_icon.png";
 import mail_icon from "../IMG/mail_icon.png";
 import jk_logo from "../IMG/JK_LOGO.png";
-import '../CSS/Navbar.css'
 import PropTypes from 'prop-types'
 
 export default function Navbar(props) {
