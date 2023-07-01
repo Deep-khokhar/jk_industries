@@ -1,4 +1,6 @@
 import React from 'react'
+import phone4 from '../IMG/phone4.png'
+import { Link } from 'react-router-dom'
 
 export default function Contact() {
   return (
@@ -30,39 +32,47 @@ export default function Contact() {
         <div className="hidden md:mt-auto md:block">
           <div className="flex flex-row">
             <div className="icon">
-              <a
-                href="https://api.whatsapp.com/send?phone=9327053441"
+              <Link
+                to="https://api.whatsapp.com/send?phone=9327053441"
                 title=""
                 className="flex"
               >
                 <img
                   className="w-auto h-8 lg:h-7 pr-6"
-                  src="/IMG/phone4.png"
+                  src={phone4}
                   height={20}
                   width={20}
                   alt=""
                 />
-              </a>
+              </Link>
             </div>
             <div className="flex flex-col">
               <div className="add p-0 flex-col border-b-2 border-black border-b-orange-500 pb-3">
-                <p>
-                  <a
-                    href="tel: +91-79-22892402"
-                    className="flex text-base text-black transition-all duration-200 hover:text-orange-600 focus:text-orange-600 text-white "
+                <p className='text-white'>
+                Phone : 
+                  <Link
+                    to="tel: +91-79-22892402"
+                    className=" text-base text-black transition-all duration-200 hover:text-orange-600 focus:text-orange-600 text-white "
                   >
-                    Phone : +91-79-22892402
-                  </a>
+                   +91-79-22892402
+                  </Link>
                 </p>
               </div>
               <div>
-                <p>
-                  <a
-                    href="tel:"
-                    className="flex text-base text-black transition-all duration-200 hover:text-orange-600 focus:text-orange-600 text-white pt-3"
+                <p className='text-white'>
+                Mobile : 
+                  <Link
+                    to="tel:+91-9327053441"
+                    className=" text-base text-black transition-all duration-200 hover:text-orange-600 focus:text-orange-600 text-white pt-3"
                   >
-                    Mobile : +91-9327053441, +91-9537263171
-                  </a>
+                    +91-9327053441, 
+                  </Link>
+                  <Link
+                    to="tel:"
+                    className=" text-base text-black transition-all duration-200 hover:text-orange-600 focus:text-orange-600 text-white pt-3"
+                  >
+                    +91-9537263171 
+                  </Link>
                 </p>
               </div>
             </div>

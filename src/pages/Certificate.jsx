@@ -1,31 +1,32 @@
-import React from "react";
+import React, { useEffect } from "react";
 import cert1 from "../IMG/cert1.jpg";
 import cert2 from "../IMG/cert2.jpg";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import '../CSS/Certificate.css'
-// import '../JS/Certificate.js'
-
-const onClick =()=>{
-    document.querySelectorAll('.certificategallery img').forEach(image =>{
-        image.onclick = () =>{
-            document.querySelector('.popupsection').style.display = 'block';
-            document.querySelector('.popupsection img').src = image.getAttribute('src');
-            document.querySelector('body').style.overflow = 'hidden';
-    
-        }
-    });
-    
-    document.querySelector('.popupsection span').onclick = () =>{
-        document.querySelector('.popupsection').style.display = 'none';
-        document.querySelector('body').style.overflow = 'auto';
-    }
-}
+import "../CSS/Certificate.css";
 
 export default function Certificate() {
+  const onClick = () => {
+    document.querySelectorAll(".certificategallery img").forEach((image) => {
+      image.onclick = () => {
+        document.querySelector(".popupsection").style.display = "block";
+        document.querySelector(".popupsection img").src =
+          image.getAttribute("src");
+        document.querySelector("body").style.overflow = "hidden";
+      };
+    });
+
+    document.querySelector(".popupsection span").onclick = () => {
+      document.querySelector(".popupsection").style.display = "none";
+      document.querySelector("body").style.overflow = "auto";
+    };
+  };
+  useEffect(() => {
+    onClick();
+  });
   return (
     <>
-    <Navbar certificate="#FFA500"/>
+      <Navbar certificate="#FFA500" />
       <section className="bg-gray-900 w-screen certificatesection">
         <div className="certificategallery">
           <div className="image" onClick={onClick}>
@@ -41,7 +42,7 @@ export default function Certificate() {
         </div>
       </section>
 
-      <Footer/>
+      <Footer />
     </>
   );
 }
