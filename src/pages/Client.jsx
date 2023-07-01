@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import application from '../IMG/Application.jpg'
-import '../CSS/ExportPage.css'
+import application from "../IMG/Application.jpg";
+import "../CSS/ExportPage.css";
 
 export default function Client() {
   return (
@@ -49,44 +49,50 @@ export default function Client() {
             </div>
           </div>
           <div className="part-2" style={{ height: "638px" }}>
-            <img src={application} style={{height:"797px", width:"653px"}} alt="" />
+            <img
+              src={application}
+              style={{ height: "797px", width: "653px" }}
+              alt=""
+            />
           </div>
         </div>
-
-        
       </div>
-     
 
       <div className="bg-gray-900" style={{ height: "400px" }} />
 
-      <div className="export-countries " style={{margin:"500px", background:"#f5f5f5",width:"700px",}}>
-      <h2 className='text-2xl font-bold'>Our Clients From Various Industries</h2>
-      <div className="grid grid-cols-3 gap-4">
-        <div>
-      <ul>
-        <li>Glass</li>
-        <li>Ceramic</li>
-        <li>Chemical</li>
-        <li>Metal</li>
-      </ul>
+      <div
+        className="export-countries "
+        style={{ marginTop: "500px", background: "#f5f5f5", width: "700px" }}
+      >
+        <h2 className="text-2xl font-bold">
+          Our Clients From Various Industries
+        </h2>
+        <div className="grid grid-cols-3 gap-4">
+          <div>
+            <ul>
+              <li>Glass</li>
+              <li>Ceramic</li>
+              <li>Chemical</li>
+              <li>Metal</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>Food</li>
+              <li>Foundries</li>
+              <li>Iron and Steel</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>Packaging Industries</li>
+              <li>Process Plants</li>
+              <li>Coal Power Plant</li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div>
-      <ul>
-        <li>Food</li>
-        <li>Foundries</li>
-        <li>Iron and Steel</li>
-      </ul>
-      </div>
-      <div>
-      <ul>
-        <li>Packaging Industries</li>
-        <li>Process Plants</li>
-        <li>Coal Power Plant</li>
-      </ul>
-      </div>
-      </div>
-    </div>
-      
+
       {/* <div
         className="color1"
         style={{ height: "750px", background: "#f5f5f5" }}

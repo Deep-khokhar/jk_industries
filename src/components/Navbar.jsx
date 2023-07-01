@@ -182,24 +182,24 @@ export default function Navbar() {
                     className="hover:text-orange-600"
                     onClick={handleClosedrop}
                   >
-                    Management
+                    <Link to="/management">Management</Link>
                   </MenuItem>
                   <MenuItem
                     className="hover:text-orange-600"
                     onClick={handleClosedrop}
                   >
-                    Products
+                    <Link to="/export">Export</Link>
                   </MenuItem>
                   <MenuItem
                     className="hover:text-orange-600"
                     onClick={handleClosedrop}
                   >
-                    Research & Developement
+                    <Link to="/R&D">Research & Developement</Link>
                   </MenuItem>
                 </div>
               </Menu>
               <Link
-                to="#"
+                to="/products"
                 title=""
                 className={`text-base ${
                   nav === "products" ? "text-orange-600" : ""
@@ -211,7 +211,7 @@ export default function Navbar() {
                 Products{" "}
               </Link>
               <Link
-                to="#"
+                to="/client"
                 title=""
                 className={`text-base ${
                   nav === "clients" ? "text-orange-600" : ""
@@ -223,7 +223,7 @@ export default function Navbar() {
                 Clients{" "}
               </Link>
               <Link
-                to="/Certificate"
+                to="/certificate"
                 title=""
                 className={`text-base ${
                   nav === "certification" ? "text-orange-600" : ""
@@ -235,7 +235,7 @@ export default function Navbar() {
                 Certification
               </Link>
               <Link
-                to="/Contact_us"
+                to="/contact"
                 title=""
                 className={`text-base ${
                   nav === "contact" ? "text-orange-600" : ""
