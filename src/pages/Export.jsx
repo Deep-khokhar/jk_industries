@@ -38,7 +38,7 @@ export default function Export() {
   </div>
 
   <div className="export-countries">
-      <h2 className='text-2xl'>Our Brand's Export Countries</h2>
+      <h2 className='text-2xl font-bold'>Our Brand's Export Countries</h2>
       <ul>
         <li>Europe</li>
         <li>Africa</li>

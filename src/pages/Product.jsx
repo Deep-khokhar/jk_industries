@@ -1,8 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import { Link } from 'react-router-dom'
+import Table from '../components/Table'
+import Table2 from '../components/Table2'
+// import PhotoGalary from '../components/PhotoGalary'
 
 export default function Product() {
+
+  
+  
   return (
     <>
       <Navbar product = "#FFA500"/>
@@ -30,7 +36,7 @@ export default function Product() {
           <div className="box  mt-20   ">
             <div className="text-xl m-1 hello">
               <div className="text-center m-2">
-                <button
+                {/* <button
                   className="btn btn-classy w-[20vw]"
                   role="button"
                   title=""
@@ -45,7 +51,7 @@ export default function Product() {
                   title=""
                 >
                   <Link href="#Technical-Data"> Technical-Data</Link>
-                </button>
+                </button> */}
               </div>
               <div className="text-center m-2">
                 <Link
@@ -66,6 +72,7 @@ export default function Product() {
         <div className="mt-5">
           <b className="text-3xl">Technica-Data</b>
           <br />
+          <Table/>
           <p className="text-justify mt-6"></p>
           <div className="flex flex-row">
             <div>
@@ -270,191 +277,15 @@ export default function Product() {
             </div>
           </div>
         </div>
+        <Table2/>
       </div>
-      <div></div>
     </div>
+
+
+     
   </div>
-  {/* product carousal */}
-  <div className="container ml-40  mt-20 m-auto px-4 md:px-12 ">
-    <div className="flex flex-wrap   -mx-1 lg:-mx-4">
-      {/* Column */}
-      <div
-        className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 "
-        style={{ width: "25vw" }}
-      >
-        {/* Article */}
-        <article className="overflow-hidden rounded-lg shadow-lg">
-          <Link href="#">
-            <img
-              alt="Placeholder"
-              className="block h-auto w-full"
-              src="/IMG/MOTOR1.jpg"
-            />
-          </Link>
-          <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-            <h1 className="text-lg">
-              <Link className="no-underline hover:underline text-black" href="#">
-                Article Title
-              </Link>
-            </h1>
-            <p className="text-grey-darker text-sm">11/1/19</p>
-          </header>
-          <footer className="flex items-center justify-between leading-none p-2 md:p-4">
-            <Link
-              className="flex items-center no-underline hover:underline text-black"
-              href="#"
-            >
-              <img
-                alt="Placeholder"
-                className="block rounded-full"
-                src="https://picsum.photos/32/32/?random"
-              />
-              <p className="ml-2 text-sm">Author Name</p>
-            </Link>
-            <Link
-              className="no-underline text-grey-darker hover:text-red-dark"
-              href="#"
-            >
-              <span className="hidden">Like</span>
-              <i className="fa fa-heart" />
-            </Link>
-          </footer>
-        </article>
-        {/* END Article */}
-      </div>
-      {/* END Column */}
-      {/* Column */}
-      <div
-        className=" my-1 px-1 md:w-1/2 lg:my-4 lg:px-4 "
-        style={{ width: "25vw" }}
-      >
-        {/* Article */}
-        <article className="overflow-hidden rounded-lg shadow-lg">
-          <Link href="#">
-            <img
-              alt="Placeholder"
-              className="block h-auto w-full"
-              src="/IMG/JK_MOTOR_PHOTO1.png"
-            />
-          </Link>
-          <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-            <h1 className="text-lg">
-              <Link className="no-underline hover:underline text-black" href="#">
-                Article Title
-              </Link>
-            </h1>
-            <p className="text-grey-darker text-sm">11/1/19</p>
-          </header>
-        </article>
-        {/* END Article */}
-      </div>
-      {/* END Column */}
-      {/* Column */}
-      <div
-        className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 "
-        style={{ width: "25vw" }}
-      >
-        {/* Article */}
-        <article className="overflow-hidden rounded-lg shadow-lg">
-          <Link href="#">
-            <img
-              alt="Placeholder"
-              className="block h-auto w-full"
-              src="/IMG/JK_MOTOR_PHOTO2.png"
-            />
-          </Link>
-          <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-            <h1 className="text-lg">
-              <Link className="no-underline hover:underline text-black" href="#">
-                Article Title
-              </Link>
-            </h1>
-            <p className="text-grey-darker text-sm">11/1/19</p>
-          </header>
-        </article>
-        {/* END Article */}
-      </div>
-      {/* END Column */}
-      {/* Column */}
-      <div
-        className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 "
-        style={{ width: "25vw" }}
-      >
-        {/* Article */}
-        <article className="overflow-hidden rounded-lg shadow-lg">
-          <Link href="#">
-            <img
-              alt="Placeholder"
-              className="block h-auto w-full"
-              src="/IMG/JK_MOTOR_PHOTO_3.png"
-            />
-          </Link>
-          <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-            <h1 className="text-lg">
-              <Link className="no-underline hover:underline text-black" href="#">
-                Article Title
-              </Link>
-            </h1>
-            <p className="text-grey-darker text-sm">11/1/19</p>
-          </header>
-        </article>
-        {/* END Article */}
-      </div>
-      {/* END Column */}
-      {/* Column */}
-      <div
-        className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 "
-        style={{ width: "25vw" }}
-      >
-        {/* Article */}
-        <article className="overflow-hidden rounded-lg shadow-lg">
-          <Link href="#">
-            <img
-              alt="Placeholder"
-              className="block h-auto w-full"
-              src="https://picsum.photos/600/400/?random"
-            />
-          </Link>
-          <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-            <h1 className="text-lg">
-              <Link className="no-underline hover:underline text-black" href="#">
-                Article Title
-              </Link>
-            </h1>
-            <p className="text-grey-darker text-sm">11/1/19</p>
-          </header>
-        </article>
-        {/* END Article */}
-      </div>
-      {/* END Column */}
-      {/* Column */}
-      <div
-        className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 "
-        style={{ width: "25vw" }}
-      >
-        {/* Article */}
-        <article className="overflow-hidden rounded-lg shadow-lg">
-          <Link href="#">
-            <img
-              alt="Placeholder"
-              className="block h-auto w-full"
-              src="https://picsum.photos/600/400/?motor"
-            />
-          </Link>
-          <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-            <h1 className="text-lg">
-              <Link className="no-underline hover:underline text-black" href="#">
-                Article Title
-              </Link>
-            </h1>
-            <p className="text-grey-darker text-sm">11/1/19</p>
-          </header>
-        </article>
-        {/* END Article */}
-      </div>
-      {/* END Column */}
-    </div>
-  </div>
+  
+  {/* <PhotoGalary/> */}
 
 
     </>

@@ -153,7 +153,7 @@ export default function Navbar(props) {
                 >
                   <li>
                     <Link
-                      to="#"
+                      to="/management"
                       className="text-base font-medium text-black transition-all duration-200 hover:text-orange-600 focus:text-orange-600 block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
                       Management
@@ -161,20 +161,13 @@ export default function Navbar(props) {
                   </li>
                   <li>
                     <Link
-                      to="#"
+                      to="/export"
                       className="text-base font-medium text-black transition-all duration-200 hover:text-orange-600 focus:text-orange-600 block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
                       Export
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      to="#"
-                      className=" text-base font-medium text-black transition-all duration-200 hover:text-orange-600 focus:text-orange-600 block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                    >
-                      Network
-                    </Link>
-                  </li>
+                  
                   <li>
                     <Link
                       to="/R&D"
@@ -186,14 +179,14 @@ export default function Navbar(props) {
                 </ul>
               </div>
               <Link
-                to="#"
+                to="/products"
                 title=""
                 className="text-base font-medium text-black transition-all duration-200 hover:text-orange-600 focus:text-orange-600"
               >
                 Products{" "}
               </Link>
               <Link
-                to="#"
+                to="/client"
                 title=""
                 className="text-base font-medium text-black transition-all duration-200 hover:text-orange-600 focus:text-orange-600"
               >
@@ -216,37 +209,7 @@ export default function Navbar(props) {
             </div>
           </nav>
           {/* xs to lg */}
-          <nav className="flex flex-col py-4 space-y-2 lg:hidden">
-            <Link
-              to="#"
-              title=""
-              className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"
-            >
-              {" "}
-              Home
-            </Link>
-            <Link
-              to="#"
-              title=""
-              className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"
-            >
-              Solutions{" "}
-            </Link>
-            <Link
-              to="#"
-              title=""
-              className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"
-            >
-              Resources{" "}
-            </Link>
-            <Link
-              to="#"
-              title=""
-              className="py-2 text-base font-medium text-black transition-all duration-200 focus:text-blue-600"
-            >
-              Pricing{" "}
-            </Link>
-          </nav>
+          
         </div>
       </header>
     </>

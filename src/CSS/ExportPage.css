@@ -41,7 +41,7 @@
 
 .export-countries li:hover:before {
   opacity: 1;
-  transform: translateX(10px) translateY(-50%);
+  transform: translateX(5px) translateY(-50%);
 }
 
 .export-countries li span {
