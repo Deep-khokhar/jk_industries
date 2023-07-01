@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8ca4ad21.css",
+    "main.js": "/static/js/main.45152c51.js",
+    "static/js/787.0fe90de3.chunk.js": "/static/js/787.0fe90de3.chunk.js",
+    "static/media/brochure.jpg": "/static/media/brochure.8d8b43a11c05dd94e9df.jpg",
+    "static/media/ExportBack.jpg": "/static/media/ExportBack.4b57b12c6368ca4afa60.jpg",
+    "static/media/manage.jpg": "/static/media/manage.ceec05068443ef35e885.jpg",
+    "static/media/ExportMain.jpg": "/static/media/ExportMain.6f6444943d8bdc9e251f.jpg",
+    "static/media/BackGround.jpg": "/static/media/BackGround.f967fb27420660096a15.jpg",
+    "static/media/cert2.jpg": "/static/media/cert2.c5d866fa91d97aace47a.jpg",
+    "static/media/cert1.jpg": "/static/media/cert1.9d38dd121b64e74341aa.jpg",
+    "static/media/Application.jpg": "/static/media/Application.d4d7a72dc4eed1c909e7.jpg",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/JK_LOGO.png": "/static/media/JK_LOGO.ea2e710aa41e67cb1229.png",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/R&D1.jpg": "/static/media/R&D1.55a321452041a260eb4d.jpg",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/R&S2.jpg": "/static/media/R&S2.f159dd186ee48ecf66bb.jpg",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/Whatsapp_icon.png": "/static/media/Whatsapp_icon.7890ebb1991ceea33054.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/mail_icon.png": "/static/media/mail_icon.458a303208bcc1a15b6b.png",
+    "static/media/navigation_icon.png": "/static/media/navigation_icon.d2d1afdb57bc27a6d353.png",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/index.html",
+    "main.8ca4ad21.css.map": "/static/css/main.8ca4ad21.css.map",
+    "main.45152c51.js.map": "/static/js/main.45152c51.js.map",
+    "787.0fe90de3.chunk.js.map": "/static/js/787.0fe90de3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ca4ad21.css",
+    "static/js/main.45152c51.js"
+  ]
+}
