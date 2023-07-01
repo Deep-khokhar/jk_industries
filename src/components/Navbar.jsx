@@ -4,7 +4,6 @@ import nav_icon from "../IMG/navigation_icon.png";
 import mail_icon from "../IMG/mail_icon.png";
 import jk_logo from "../IMG/JK_LOGO.png";
 import "../CSS/Navbar.css";
-import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import Fade from "@mui/material/Fade";
@@ -264,19 +263,25 @@ export default function Navbar() {
                   <NavLink to="/">Home</NavLink>
                 </li>
                 <li className="menu-item">
-                  <NavLink to="/">About Us</NavLink>
+                  <NavLink to="/management">Management</NavLink>
                 </li>
                 <li className="menu-item">
-                  <NavLink to="/">Products</NavLink>
+                  <NavLink to="/export">Export</NavLink>
                 </li>
                 <li className="menu-item">
-                  <NavLink to="/">Clients</NavLink>
+                  <NavLink to="/R&D">R&D</NavLink>
                 </li>
                 <li className="menu-item">
-                  <NavLink to="/">Certification</NavLink>
+                  <NavLink to="/products">Products</NavLink>
                 </li>
                 <li className="menu-item">
-                  <NavLink to="/">Contact-Us</NavLink>
+                  <NavLink to="/client">Clients</NavLink>
+                </li>
+                <li className="menu-item">
+                  <NavLink to="/certificate">Certification</NavLink>
+                </li>
+                <li className="menu-item">
+                  <NavLink to="/contact">Contact-Us</NavLink>
                 </li>
               </ul>
             </div>

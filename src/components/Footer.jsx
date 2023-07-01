@@ -40,8 +40,8 @@ export default function Footer() {
               </p>
               <ul className="mt-6 space-y-4">
                 <li>
-                  <Link
-                    href="#"
+                  <Link 
+                    to="/"
                     title=""
                     className="flex text-base text-black transition-all duration-200 hover:text-orange-600 focus:text-orange-600"
                   >
@@ -77,7 +77,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    to="/certificate"
                     title=""
                     className="flex text-base text-black transition-all duration-200 hover:text-orange-600 focus:text-orange-600"
                   >
@@ -86,7 +86,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    to="/contact"
                     title=""
                     className="flex text-base text-black transition-all duration-200 hover:text-orange-600 focus:text-orange-600"
                   >
@@ -102,7 +102,7 @@ export default function Footer() {
               <ul className="mt-6 space-y-4">
                 <li>
                   <Link
-                    href="#"
+                    to="/management"
                     title=""
                     className="flex text-base text-black transition-all duration-200 hover:text-orange-600 focus:text-orange-600"
                   >
@@ -111,7 +111,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    to="/export"
                     title=""
                     className="flex text-base text-black transition-all duration-200 hover:text-orange-600 focus:text-orange-600"
                   >
@@ -129,7 +129,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    to="/R&D"
                     title=""
                     className="flex text-base text-black transition-all duration-200 hover:text-orange-600 focus:text-orange-600"
                   >
@@ -156,7 +156,7 @@ export default function Footer() {
                 </div>
                 <div className="add p-0">
                   <Link
-                    href="http://maps.google.com/?q=1200 J K Industries Vibratory Motors Manufacturer & Exporter in India, Plot No. 162, Road No. 4/A, Kathwada GIDC, Ahmedabad, Gujarat 382430"
+                    to="http://maps.google.com/?q=1200 J K Industries Vibratory Motors Manufacturer & Exporter in India, Plot No. 162, Road No. 4/A, Kathwada GIDC, Ahmedabad, Gujarat 382430"
                     className=" flex text-base text-black transition-all duration-200 hover:text-orange-600 focus:text-orange-600"
                   >
                     <p>
@@ -169,7 +169,7 @@ export default function Footer() {
               <div className="flex flex-row pt-5">
                 <div className="icon">
                   <Link
-                    href="mailto:sales@jkvibratorymotor.com"
+                    to="mailto:sales@jkvibratorymotor.com"
                     title=""
                     className="flex"
                   >
@@ -185,7 +185,7 @@ export default function Footer() {
                 <div className="add p-0">
                   <p>
                     <Link
-                      href="mailto:sales@jkvibratorymotor.com"
+                      to="mailto:sales@jkvibratorymotor.com"
                       className="flex text-base text-black transition-all duration-200 hover:text-orange-600 focus:text-orange-600"
                     >
                       sales@jkvibratorymotor.com
@@ -196,7 +196,7 @@ export default function Footer() {
               <div className="flex flex-row pt-5">
                 <div className="icon">
                   <Link
-                    href="mailto:jkvibratorymotor@gmail.com"
+                    to="mailto:jkvibratorymotor@gmail.com"
                     title=""
                     className="flex"
                   >
@@ -212,7 +212,7 @@ export default function Footer() {
                 <div className="add p-0">
                   <p>
                     <Link
-                      href="mailto:jkvibratorymotor@gmail.com"
+                      to="mailto:jkvibratorymotor@gmail.com"
                       className="flex text-base text-black transition-all duration-200 hover:text-orange-600 focus:text-orange-600"
                     >
                       jkvibratorymotor@gmail.com
@@ -223,7 +223,7 @@ export default function Footer() {
               <div className="flex flex-row pt-5">
                 <div className="icon">
                   <Link
-                    href="https://api.whatsapp.com/send?phone=9327053441"
+                    to="https://api.whatsapp.com/send?phone=9327053441"
                     title=""
                     className="flex"
                   >
@@ -239,7 +239,7 @@ export default function Footer() {
                 <div className="add p-0">
                   <p>
                     <Link
-                      href="https://api.whatsapp.com/send?phone=9327053441"
+                      to="https://api.whatsapp.com/send?phone=9327053441"
                       className="flex text-base text-black transition-all duration-200 hover:text-orange-600 focus:text-orange-600"
                     >
                       +91-9327053441
